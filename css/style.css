@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+
+.returnal{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding:160px 10px;
+}
+
+.img-control{
+    width: 250px;
+}
+.bottone-rosso{
+    text-decoration: none;
+    border-radius: 30px;
+    
+}

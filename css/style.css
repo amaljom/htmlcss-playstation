@@ -6,7 +6,7 @@ body{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    padding:160px 10px;
+    padding:140px 15px;
 }
 
 .img-control{
@@ -14,6 +14,8 @@ body{
 }
 .bottone-rosso{
     text-decoration: none;
+    border-radius: 30px;    
+}
+.b-radius{
     border-radius: 30px;
-    
 }

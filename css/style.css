@@ -19,3 +19,12 @@ body{
 .b-radius{
     border-radius: 30px;
 }
+.takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:140px 15px;
+}
+.bg-color-list{
+    background-color: rgb(31, 31, 31);
+}

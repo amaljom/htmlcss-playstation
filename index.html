@@ -5,40 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+      
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link dropdown-toggle attivazione" href="#">Giochi <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link dropdown-toggle" href="#">Harware</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                servizi
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#">Novità</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#">Fai Acquisti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#">Supporto</a>
             </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0 ">
+            <ul class="navbar-nav mr-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#">Supporto</a>
+              </li>
+              <li lass="nav-item">
+                <a class="bottone-rosso p-2 bg-grigio nav-link " href="#">Accedi</a>
+              </li>
+              <li lass="nav-item ">
+                <a class="nav-link  href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+            </ul>
+          </form>
         </div>
       </nav>
+      <div class="down-bar">
+        <div class="d-flex justify-content-center">
+          <div>
+            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
+          </div>
+          <div>
+            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
+          </div>
+          <div>
+            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
+          </div>
+        </div>
+        
+        <ul class="d-flex justify-content-center border-top">
+          <li class="pe-5">link supporto</li>
+          <li class="pe-5">link supporto</li>
+          <li class="pe-5">link supporto</li>
+        </ul>
+      </div>
     </header>
     
     <main>
@@ -60,62 +95,62 @@
         </section>
         <!-- immagini sotto returnal -->
         <div class="row my-3 px-3 g-0">
-          <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
+          <div class="col-6 col-sm-4 col-lg-2 p-3 ">
+            <img class="w-100 b-radius hover-lift" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
           </div>
           <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius " src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
+            <img class="w-100 b-radius hover-lift" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
           </div>
           <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
+            <img class="w-100 b-radius hover-lift" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
           </div>
           <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
+            <img class="w-100 b-radius hover-lift" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
           </div>
           <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
+            <img class="w-100 b-radius hover-lift" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="NON TROVATO">
           </div>
           <div class="col-6 col-sm-4 col-lg-2 p-3">
-            <img class="w-100 b-radius" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
+            <img class="w-100 b-radius hover-lift" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="NON TROVATO">
           </div>
         </div>
         <!-- CONSOLE -->
         <section class="text-center">
-          <div class="py-5">
+          <div class="py-2">
             <p class="text-primary">PLAY HAS NO LIMITS</p>
             <h1>Ecco la PlayStation 5</h1>
             <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
           </div>
           <!-- contenitore flex -->
-          <div>
-            <div class="pb-4">
+          <div class="row g-0 align-items-center allineamento">
+            <div class="pb-4 col-12 col-md-5">
               <h1>Console PlayStation 5</h1>
               <p class="pb-3">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-              <div class="text-start ms-5">
+              <div class="text-start allineamento-2">
                 <a href="#" class="bottone-rosso bg-primary text-white p-3 my-3">Maggiori informazioni</a>
               </div>
-              
             </div>
-            <div>
-              <img class="col-10" src="./img/playstation-5-thumb.png" alt="NON TROVATO">
+            <div class="col-12 col-md-6">
+              <img class="w-100" src="./img/playstation-5-thumb.png" alt="NON TROVATO">
             </div>
           </div>
+
           <!-- IMMAGINI AFFIANCATE -->
           <div class="row p-4 g-0 ">
             <div class="flex-immagini border-bottom border-primary">
-              <img class="w-100" src="./img/playstation-5-thumb.png" alt="NON TROVATO">
+              <img class="w-50" src="./img/playstation-5-thumb.png" alt="NON TROVATO">
             </div>
             <div class="flex-immagini">
-              <img class="w-100" src="./img/joypad-thumb.png" alt="NON TROVATO">
+              <img class="w-50" src="./img/joypad-thumb.png" alt="NON TROVATO">
             </div>
             <div class="flex-immagini">
-              <img class="w-100" src="./img/headset-thumb.png" alt="NON TROVATO">
+              <img class="w-50" src="./img/headset-thumb.png" alt="NON TROVATO">
             </div>
             <div class="flex-immagini">
-              <img class="w-100" src="./img/remote-thumb.png" alt="NON TROVATO">
+              <img class="w-50" src="./img/remote-thumb.png" alt="NON TROVATO">
             </div>
             <div class="flex-immagini">
-              <img class="w-100" src="./img/camera-thumb.jpg" alt="NON TROVATO">
+              <img class="w-50" src="./img/camera-thumb.jpg" alt="NON TROVATO">
             </div>
           </div>
         </section>
@@ -236,7 +271,7 @@
       <!-- BARRA GRIGIA -->
       <section>
         <div class="row bg-grigio my-5 g-0">
-          <div class="col-12 col-md-5 ps-4 align-self-center">
+          <div class="col-12 col-md-6 ps-4 align-self-center">
             <div>
               <img class="img-control mt-5" src="./img/ps-plus-logo.png" alt="NON TROVATO">
               </div>
@@ -247,7 +282,7 @@
                   <a href="#" class="bottone-rosso bg-particolare text-white p-3 my-3 line-height">Esplora PlayStation Plus</a> 
               </div>
           </div>
-          <div class="col-md-7 d-none d-md-inline">
+          <div class="col-md-5 d-none d-md-inline">
             <img class="w-100" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="NON TROVATO">
           </div>
         </div>
@@ -283,7 +318,7 @@
       </section>
       <!-- sezione plus -->
       <section>
-        <div class="row bg-plus my-5 g-0 text-white">
+        <div class="row bg-plus my-6 g-0 text-white">
           <div class="col-12 col-md-5 ps-4 align-self-center">
             <div>
               <img class="img-control mt-5" src="./img/ps-now-logo-two-column.png" alt="NON TROVATO">
@@ -295,7 +330,7 @@
                   <a href="#" class="bottone-rosso bg-light text-dark p-3 my-3 line-height">Esplora PlayStation Now</a> 
               </div>
           </div>
-          <div class="col-md-7 d-none d-md-inline">
+          <div class="col-md-5 d-none d-md-inline">
             <img class="w-100" src="./img/ps-now-april-featured-image-block.png" alt="NON TROVATO">
           </div>
         </div>
@@ -377,7 +412,8 @@
         </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

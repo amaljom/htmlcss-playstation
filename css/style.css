@@ -52,9 +52,35 @@ body{
 .flex-immagini{
     width: calc( 100% / 3 );
 }
+.allineamento-2{
+    margin-left: 40px;
+}
+
+.hover-lift{
+    position: relative;
+}
+.hover-lift:hover{
+    bottom: 15px;
+}
+.down-bar{
+    display: none;
+}
+.attivazione:active down-bar{
+    display: block;
+}
 
 @media screen and (min-width: 720px) { 
     .flex-immagini{
         width: calc( 100% / 5 );
+    }
+    .allineamento{
+        text-align: left;
+        margin-left: 60px;
+    }
+    .allineamento-2{
+        margin-left: 0px;
+    }
+    .img-control{
+        width: 350px;
     }
 }

@@ -7,6 +7,7 @@ body{
     background-size: cover;
     background-position: center;
     padding:140px 15px;
+    margin-top: 75px;
 }
 
 .img-control{
@@ -24,6 +25,9 @@ body{
     background-size: cover;
     background-position: center;
     padding:140px 15px;
+}
+.bg-top{
+    background-color:#fff;
 }
 .bg-color-list{
     background-color: rgb(31, 31, 31);
@@ -52,6 +56,15 @@ body{
 .flex-immagini{
     width: calc( 100% / 3 );
 }
+.flex-immagini img{
+    opacity: .6;
+    transition-duration: .5s;
+    border-bottom: 2px solid transparent;
+}
+.flex-immagini img:hover{
+    opacity: 1;
+    border-bottom: 1px solid rgb(25, 68, 255);
+}
 .allineamento-2{
     margin-left: 40px;
 }
@@ -67,17 +80,33 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     width: 100%;
+    margin-top: 0px;
+}
+.navbar-nav .nav-item .altezze{
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
 }
 
-.attivazione:hover .down-bar{
-    display: inline-block;
+.border-transparent{
+    border: 2px solid transparent;
 }
-
 .inner-border:hover{
     box-shadow: inset 0px 0px 0px 2px black;
     border: 2px solid red;
 }
-
+.inner-border-2:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.inner-border-3:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+.inner-border-4:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(218, 218, 218);
+    border: 2px solid rgb(197, 197, 197);
+}
 @media screen and (min-width: 720px) { 
     .flex-immagini{
         width: calc( 100% / 5 );

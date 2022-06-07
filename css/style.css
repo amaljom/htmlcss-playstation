@@ -57,16 +57,25 @@ body{
 }
 
 .hover-lift{
-    position: relative;
+    transition-duration: .5s;
 }
 .hover-lift:hover{
-    bottom: 15px;
+    transform: translateY(-10px);
 }
-.down-bar{
-    display: none;
+
+.bar-drop{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
 }
-.attivazione:active down-bar{
-    display: block;
+
+.attivazione:hover .down-bar{
+    display: inline-block;
+}
+
+.inner-border:hover{
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: 2px solid red;
 }
 
 @media screen and (min-width: 720px) { 

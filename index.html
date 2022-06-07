@@ -11,69 +11,70 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link dropdown-toggle attivazione" href="#">Giochi <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#">Harware</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                servizi
-            </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#">Novità</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#">Fai Acquisti</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#">Supporto</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 ">
-            <ul class="navbar-nav mr-auto align-items-center">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link dropdown-toggle" href="#">Supporto</a>
+                <a class="nav-link active" aria-current="page" href="#">Giochi</a>
               </li>
-              <li lass="nav-item">
-                <a class="bottone-rosso p-2 bg-grigio nav-link " href="#">Accedi</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Harware</a>
               </li>
-              <li lass="nav-item ">
-                <a class="nav-link  href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <li class="nav-item position-static dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu bar-drop" aria-labelledby="navbarDropdown">
+                  <ul class="d-flex list-unstyled">
+                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a></li>
+                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a></li>
+                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a></li>
+                  </ul>
+                  
+                  <li><hr class="dropdown-divider"></li>
+
+                  <ul class="d-flex">
+                    <li class="pe-5"><a class="dropdown-item" href="#">Link Servizi</a></li>
+                    <li class="pe-5"><a class="dropdown-item" href="#">Link Servizi</a></li>
+                    <li class="pe-5"><a class="dropdown-item" href="#">Link Servizi</a></li>
+                  </ul>
+                  
+                </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link">Novità</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Fai Acquisti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Supporto</a>
+              </li>
+
             </ul>
-          </form>
+            <form class="d-flex" role="search">
+              <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#">Supporto</a>
+                </li>
+                <li lass="nav-item">
+                  <a class="bottone-rosso p-2 bg-grigio nav-link " href="#">Accedi</a>
+                </li>
+                <li lass="nav-item ">
+                  <a class="nav-link  href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
       </nav>
-      <div class="down-bar">
-        <div class="d-flex justify-content-center">
-          <div>
-            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
-          </div>
-          <div>
-            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
-          </div>
-          <div>
-            <img src="./img/play-menu-ico.png" alt="NON TROVATO">
-          </div>
-        </div>
-        
-        <ul class="d-flex justify-content-center border-top">
-          <li class="pe-5">link supporto</li>
-          <li class="pe-5">link supporto</li>
-          <li class="pe-5">link supporto</li>
-        </ul>
-      </div>
+
     </header>
     
     <main>
@@ -88,7 +89,7 @@
                     <p class="pb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita
                        in questo esplosivo Thriller fantascientifico. Disponibile in esclusiva su PS5
                     </p>
-                    <a href="#" class="bottone-rosso bg-danger text-white p-3 my-3">Acquista ora</a>
+                    <a href="#" class="bottone-rosso bg-danger text-white p-3 my-3 inner-border">Acquista ora</a>
                     
                 </div>
             </div>
@@ -412,8 +413,7 @@
         </div>
       </section>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

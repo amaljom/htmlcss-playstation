@@ -28,3 +28,33 @@ body{
 .bg-color-list{
     background-color: rgb(31, 31, 31);
 }
+.bg-particolare{
+    background-color:rgb(217, 218, 220);
+}
+.bg-grigio{
+   background-color:rgb(190, 188, 187);
+}
+.line-height{
+    line-height: 70px;
+}
+.bg-plus{
+    background-color: rgb(22, 28, 59);
+}
+.bg-footer{
+    background-color: rgb(0, 67, 156);
+}
+.width-immagine{
+    width: 20px;
+}
+.dimensione-sie{
+    width: 200px;
+}
+.flex-immagini{
+    width: calc( 100% / 3 );
+}
+
+@media screen and (min-width: 720px) { 
+    .flex-immagini{
+        width: calc( 100% / 5 );
+    }
+}

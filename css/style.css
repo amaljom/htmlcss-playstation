@@ -7,7 +7,21 @@ body{
     background-size: cover;
     background-position: center;
     padding:140px 15px;
-    margin-top: 75px;
+    margin-top: 105px;
+}
+.logo-sony{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+.with-logo{
+    width: 180px;
+}
+.mt{
+    margin-top: 30px;
 }
 
 .img-control{
